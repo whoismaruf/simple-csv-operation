@@ -2,7 +2,7 @@ import os
 import csv
 from datetime import datetime
 
-path = os.path.join(os.getcwd(), 'gdata.csv')
+path = os.path.join(os.getcwd(), 'data/gdata.csv')
 file = open(path, newline='')
 reader = csv.reader(file)
 
