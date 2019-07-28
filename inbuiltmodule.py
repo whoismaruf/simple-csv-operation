@@ -20,3 +20,4 @@ for row in reader:
     data.append([date, open_price, high, low, close, volume, adj_close])
 
 
+# Pick specific Data in a list
